@@ -1,0 +1,16 @@
+[package]
+name = "Medical-Inventory-Management"
+version = "1.0.0"
+authors = []
+
+[addresses]
+
+MyModule="0x441a7d0b91f2058647283c643889c8baaa12d283e34a8c2a88d5a43ac2ab4e5c"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
